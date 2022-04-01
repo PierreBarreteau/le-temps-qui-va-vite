@@ -1,0 +1,24 @@
+.banner{
+	height: 60vh;
+	background-image: url("../images/montre-banner.jpg");
+	background-size: cover;
+	background-position: center;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-family: gothic A1;
+}
+
+.banner	h1, .banner h2 {
+	text-shadow: 1px 1px 1px black;
+}
+
+.banner-fixed{
+	height: 20vh;
+	background-image: url("../images/montre-banner.jpg");
+	margin: 48px 0;
+	background-size: cover;
+	background-attachment: fixed;
+}
